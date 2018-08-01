@@ -17,7 +17,7 @@ The scale parameter is optional.
     <div>
       <h3>Basic pre-render-tron demo</h3>
       <script src="https://unpkg.com/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
-      <script type="module" src="https://unpkg.com/pre-render-tron@0.0.2/pre-render-tron.js?module"></script>
+      <script type="module" src="https://unpkg.com/pre-render-tron@0.0.3/pre-render-tron.js?module"></script>
       <pre-render-tron scale="0.8" href="https://www.webcomponents.org/"></pre-render-tron>
     </div>
     </template>
