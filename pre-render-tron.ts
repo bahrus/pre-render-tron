@@ -158,7 +158,7 @@ export class PreRenderTron extends XtallatX(HTMLElement) {
 
         if (this._disabled) {
             this._target.innerHTML = '';
-        } else {
+        } else if(this._html){
             this._target.innerHTML = this._html;
         }
 
