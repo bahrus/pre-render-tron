@@ -7,6 +7,10 @@ template.innerHTML = `
     <style>
       :host {
         display: block;
+      }
+      a {
+          pointer-events: none;
+      }
     </style>
     <div id='target'></div>
 `;
