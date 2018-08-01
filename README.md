@@ -8,7 +8,13 @@ Syntax:
 <pre-render-tron scale="0.5" href="https://www.webcomponents.org/"></pre-render-tron>
 ```
 
-The scale parameter is optional.
+The "scale" attribute / property is optional. It zooms the content (larger or smaller).
+
+For IE11, a fetch polyfill is required.
+
+pre-render-tron emits events "fetch-in-progress-changed", "error-text-changed", and "error-response-changed" as applicable.
+
+If property / attribute "disabled" is set, the fetch will still take place, but the result won't be loaded until "disabled" is removed. If disabled is set again, the content will be unloaded, but saved for the future if disabled is removed again.
 
 <!--
 ```
