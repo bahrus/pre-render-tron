@@ -1,4 +1,5 @@
 import { XtallatX } from 'xtal-latx/xtal-latx.js';
+import {define} from 'xtal-latx/define.js';
 
 const href = 'href';
 const scale = 'scale';
@@ -19,8 +20,8 @@ export class PreRenderTron extends XtallatX(HTMLElement) {
     constructor() {
         super();
         this.attachShadow({ mode: 'open' });
-        this.shadowRoot.appendChild(template.content.cloneNode(true));
-        this._target = this.shadowRoot.querySelector('#target');
+        this.shadowRoot!.appendChild(template.content.cloneNode(true));
+        this._target = this.shadowRoot!.querySelector('#target') as HTMLDivElement;
     }
     static get is() { return 'pre-render-tron'; }
     static get observedAttributes() {
@@ -63,7 +64,7 @@ export class PreRenderTron extends XtallatX(HTMLElement) {
         switch (name) {
             case href:
             case scale:
-                this['_' + name] = newVal;
+                (<any>this)['_' + name] = newVal;
                 break;
         }
         this.onPropsChange();
@@ -169,4 +170,4 @@ export class PreRenderTron extends XtallatX(HTMLElement) {
         }
     }
 }
-customElements.define(PreRenderTron.is, PreRenderTron);
+define(PreRenderTron);

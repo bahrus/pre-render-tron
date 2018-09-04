@@ -1,4 +1,5 @@
 import { XtallatX } from 'xtal-latx/xtal-latx.js';
+import { define } from 'xtal-latx/define.js';
 const href = 'href';
 const scale = 'scale';
 const template = document.createElement('template');
@@ -153,5 +154,5 @@ export class PreRenderTron extends XtallatX(HTMLElement) {
         }
     }
 }
-customElements.define(PreRenderTron.is, PreRenderTron);
+define(PreRenderTron);
 //# sourceMappingURL=pre-render-tron.js.map
