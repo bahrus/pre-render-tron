@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "tags": [{
+        "name": "pre-render-tron",
+        "description": "Web component wrapper around Rendertron (https://render-tron.appspot.com/).",
+        "attributes": [
+            {
+                "name": "href",
+                "description": "URL to open via Rendertron."
+            },
+            {
+                "name": "scale",
+                "description": "Zooms the content (larger or smaller)."
+            }
+        ]
+    }]
+}

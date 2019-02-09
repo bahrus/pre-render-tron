@@ -31,6 +31,22 @@ If property / attribute "disabled" is set, the fetch will still take place, but 
 ```
 -->
 
+## Syntax
+
+<!--
+```
+<custom-element-demo>
+<template>
+    <div>
+        <wc-info package-name="npm install pre-render-tron" href="https://unpkg.com/pre-render-tron@0.0.6/html.json"></wc-info>
+        <script type="module" src="https://unpkg.com/wc-info@0.0.26/wc-info.js?module"></script>
+    </div>
+</template>
+</custom-element-demo>
+```
+-->
+
+
 ## Install the Polymer-CLI
 
 First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) and npm (packaged with [Node.js](https://nodejs.org)) installed. Run `npm install` to install your element's dependencies, then run `polymer serve` to serve your element locally.
@@ -41,10 +57,3 @@ First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polyme
 $ polymer serve
 ```
 
-## Running Tests
-
-```
-$ polymer test
-```
-
-Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
