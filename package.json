@@ -8,11 +8,11 @@
   "license": "MIT",
   "main": "pre-render-tron.js",
   "dependencies": {
-    "xtal-latx": "0.0.25",
-    "ava-pwar": "0.0.11"
+    "xtal-latx": "0.0.88",
+    "ava-pwar": "0.0.17"
   },
   "devDependencies": {
-    "@webcomponents/webcomponentsjs": "^2.0.0",
-    "jiife": "^0.0.4"
+    "@webcomponents/webcomponentsjs": "2.2.7",
+    "jiife": "0.0.11"
   }
 }
