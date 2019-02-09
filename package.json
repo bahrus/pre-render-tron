@@ -1,7 +1,7 @@
 {
   "name": "pre-render-tron",
   "flat": true,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Web component wrapper around render-tron",
   "repository": "https://github.com/bahrus/pre-render-tron",
   "author": "bahrus <anderson.bruce.b@gmail.com>",
