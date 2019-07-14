@@ -7,6 +7,7 @@
   "author": "bahrus <anderson.bruce.b@gmail.com>",
   "license": "MIT",
   "main": "pre-render-tron.js",
+  "module": "pre-render-tron.js",
   "dependencies": {
     "xtal-latx": "0.0.88",
     "ava-pwar": "0.0.17"
