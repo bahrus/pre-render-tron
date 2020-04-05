@@ -13,7 +13,6 @@
     "ava-pwar": "0.0.17"
   },
   "devDependencies": {
-    "@webcomponents/webcomponentsjs": "2.2.7",
-    "jiife": "0.0.11"
+    "@webcomponents/webcomponentsjs": "2.4.3"
   }
 }
